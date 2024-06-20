@@ -1,0 +1,27 @@
+.header {
+  .container {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  &-logoWrap {
+    max-width: 120px;
+  }
+  &-logo {
+    font-size: 28px;
+    span {
+      margin-right: 4px;
+      font-weight: 900;
+    }
+  }
+  &-list {
+    display: flex;
+    gap: 60px;
+  }
+  &-link {
+    color: $blackColor;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-shadow: 0.2px 0.2px $blackColor;
+  }
+}

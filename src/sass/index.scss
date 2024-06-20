@@ -1,2 +1,13 @@
-@import './common';
-@import './example';
+/* ---------------------------------- utils --------------------------------- */
+@import './utils/var';
+@import './utils/hidden';
+/* ---------------------------------- base ---------------------------------- */
+@import './base/reset';
+@import './base/common';
+@import './base/container';
+/* --------------------------------- layouts -------------------------------- */
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/clients';
+@import './layouts/benefit';
+@import './layouts/footer';

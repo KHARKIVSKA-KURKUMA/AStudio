@@ -1,8 +1,9 @@
 .header {
   .container {
-    padding: 40px 0;
+    margin: 40px auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   &-logoWrap {
     max-width: 120px;
